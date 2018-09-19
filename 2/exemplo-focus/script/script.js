@@ -23,6 +23,9 @@ for(let i = 0; i < inputLevel.length; i++){
   }
 }
 
+document.querySelector("body").style.backgroundColor = "#fff";
+const form = this.closest("form");
+fo
 
 if (inputEmail.value !== inputEmailConfirma.value){
   alert ("email não confere");
